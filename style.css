@@ -6,3 +6,8 @@
 body {
     text-align: center;
 }
+
+.biography {
+    width: 700px;
+    margin: 0 auto;
+}
