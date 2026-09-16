@@ -10,4 +10,28 @@ body {
 .biography {
     width: 700px;
     margin: 0 auto;
+    background-color: rgb(65, 65, 255);
+    border-radius: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+
+.qualities {
+    margin-top: 15px;
+}
+
+.qualities div {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.qualities div + div {
+    border-left: solid thin gray;
+}
+
+.blueTxt {
+    color: rgb(65, 65, 255);
+    font-weight: bold;
 }
