@@ -5,16 +5,24 @@
 
 body {
     text-align: center;
-    background-color: aliceblue;
+    background-color: rgb(236, 246, 255);
+}
+
+#graphic {
+    margin-top: 15px;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 .biography {
-    width: 700px;
+    margin-top: 15px;
+    width: 100%;
     margin: 0 auto;
     background-color: rgb(65, 65, 255);
-    border-radius: 8px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: white;
 }
 
@@ -66,4 +74,13 @@ body {
 
 #pfp {
     border-radius: 100px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: cyan;
 }
