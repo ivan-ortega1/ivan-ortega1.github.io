@@ -5,6 +5,7 @@
 
 body {
     text-align: center;
+    background-color: aliceblue;
 }
 
 .biography {
@@ -34,4 +35,31 @@ body {
 .blueTxt {
     color: rgb(65, 65, 255);
     font-weight: bold;
+}
+
+.projects section {
+    display: inline-block;
+    vertical-align: top;
+    height: 400px;
+    width: 700px;
+}
+
+.poppyPlaytimeHTML img {
+    width: 10px;
+    height: 10px;
+}
+
+.projects section + section, .perviousStudies div + div {
+    border-left: solid thin gray;
+}
+
+.perviousStudies div {
+    display: inline-block;
+    vertical-align: top;
+    width: 700px;
+    margin-bottom: 25px;
+}
+
+.perviousStudies, .projects {
+    margin-top: 55px;
 }
