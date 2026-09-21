@@ -63,3 +63,7 @@ body {
 .perviousStudies, .projects {
     margin-top: 55px;
 }
+
+#pfp {
+    border-radius: 100px;
+}
