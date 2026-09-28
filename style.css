@@ -73,7 +73,7 @@ p, img, h1, h2, h3 {
     height: 10px;
 }
 
-.projects section + section, .perviousStudies div + div {
+.perviousStudies div + div {
     border-left: solid thin gray;
 }
 
@@ -124,3 +124,29 @@ a:hover {
     color: white;
     text-align: center;
 }
+
+footer {
+    background-color: blue;
+    color: white;
+    background-color: cornflowerblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+input {
+    margin-top: 15px;
+    height: 30px;
+    width: 250px;
+}
+
+#searchButton {
+    height: 30px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+/* #poppyPlaytimeHTML {
+    position: absolute;
+    visibility: hidden;
+} */
