@@ -64,7 +64,7 @@ p, img, h1, h2, h3 {
 .projects section {
     display: inline-block;
     vertical-align: top;
-    height: 450px;
+    height: 525px;
     width: 700px;
 }
 
@@ -139,14 +139,22 @@ input {
     width: 250px;
 }
 
-#searchButton {
+button {
+    margin-top: 15px;
     height: 30px;
     background-color: blue;
     color: white;
     font-weight: bold;
+    border-radius: 50px;
+    padding: 10px;
+    line-height: 0px;
 }
 
-/* #poppyPlaytimeHTML {
+button + button {
+    margin-left: 15px;
+}
+
+.hidden {
     position: absolute;
     visibility: hidden;
-} */
+}
